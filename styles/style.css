@@ -1,7 +1,7 @@
 header {
     color: var(--grey-9);
     padding: 10px;
-    background-color: var(--grey-0);
+    background-color: var(--sixth-color);
     font-weight: bold;
 
     width: 100vw;
@@ -11,6 +11,10 @@ header {
     justify-content: center;
 
     z-index: 3;
+}
+
+a img{
+    width: 200px;
 }
 
 .headerClass {
@@ -23,8 +27,30 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
-.header_first > ul {
+.headerClass > ul {
     display: flex;
     gap: 50px;
+}
+
+.CardsClass{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    gap: 10px;
+}
+
+.MyCard{
+    border: 3px solid var(--sixth-color) ;
+    border-radius: 40px;
+
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
 }
 
