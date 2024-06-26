@@ -9,28 +9,34 @@
     <link rel="stylesheet" href="./styles/addUser.css">
 </head>
 <body>
-    <form>
-        <label for="login">Login:</label>
-        <input type="text" id="login" name="login" required>
-        
-        <label for="setor">Setor:</label>
-        <select id="setor" name="setor" required>
-            <option value="">Selecione o setor</option>
-            <option value="RH">Recursos Humanos</option>
-            <option value="TI">Tecnologia da Informação</option>
-            <option value="Financeiro">Financeiro</option>
-            <!-- Adicione outras opções conforme necessário -->
-        </select>
-        
-        <label for="tipo">Tipo:</label>
-        <select id="tipo" name="tipo" required>
-            <option value="">Selecione o tipo</option>
-            <option value="Administrador">Administrador</option>
-            <option value="Gerente">Gerente</option>
-            <option value="Colaborador">Colaborador</option>
-        </select>
-        
-        <button type="submit">Cadastrar Usuário</button>
-    </form>
+    <header>
+    </header>
+
+    <div class="user-form">
+        <form>
+            <label for="login">Login:</label>
+            <input type="text" id="login" name="login" required>
+            
+            <label for="department">Department:</label>
+            <select id="department" name="department" required>
+                <option value="" disabled selected hidden>Select the department</option>
+                <option value="HR">Human Resources</option>
+                <option value="TI">IT</option>
+                <option value="FC">Finances</option>
+                <!-- Adicione outras opções conforme necessário -->
+            </select>
+            
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="" disabled selected hidden>Select the role</option>
+                <option value="Administrator">Administrator</option>
+                <option value="Manager">Manager</option>
+                <option value="Colaborator">Colaborator</option>
+            </select>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
 </body>
 </html>
