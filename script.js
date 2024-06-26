@@ -13,3 +13,4 @@ function openModal(event) {
 function closeModal() {
     document.getElementById('01').style.display = 'none';
 }
+
