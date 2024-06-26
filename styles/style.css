@@ -1,15 +1,30 @@
-header{
-    background-color: #1C5D99;
+header {
+    color: var(--grey-9);
+    padding: 10px;
+    background-color: var(--grey-0);
+    font-weight: bold;
+
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+    z-index: 3;
 }
 
-
-
-.headerClass{
-   background-color: #1C5D99; 
-   width: 100%;
-   max-width: 95%;
-   padding: 8px;
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
+.headerClass {
+    width: 100%;
+    max-width: 95%;
+    
+    padding: 8px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+.header_first > ul {
+    display: flex;
+    gap: 50px;
+}
+
