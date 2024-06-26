@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuário</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/addUser.css">
+</head>
+<body>
+    <form>
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" required>
+        
+        <label for="setor">Setor:</label>
+        <select id="setor" name="setor" required>
+            <option value="">Selecione o setor</option>
+            <option value="RH">Recursos Humanos</option>
+            <option value="TI">Tecnologia da Informação</option>
+            <option value="Financeiro">Financeiro</option>
+            <!-- Adicione outras opções conforme necessário -->
+        </select>
+        
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" name="tipo" required>
+            <option value="">Selecione o tipo</option>
+            <option value="Administrador">Administrador</option>
+            <option value="Gerente">Gerente</option>
+            <option value="Colaborador">Colaborador</option>
+        </select>
+        
+        <button type="submit">Cadastrar Usuário</button>
+    </form>
+</body>
+</html>
