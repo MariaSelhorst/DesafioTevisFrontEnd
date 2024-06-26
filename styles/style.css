@@ -1,0 +1,15 @@
+header{
+    background-color: #1C5D99;
+}
+
+
+
+.headerClass{
+   background-color: #1C5D99; 
+   width: 100%;
+   max-width: 95%;
+   padding: 8px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
