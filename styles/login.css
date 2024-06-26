@@ -72,5 +72,5 @@ button {
 
 .close {
     position: absolute;
-    top: 0;
+    right: 25px;
 }
