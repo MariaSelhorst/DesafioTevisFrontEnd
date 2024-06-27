@@ -1,9 +1,9 @@
-body {
+.div-service-table {
     display: flex;
     align-items: center;
     justify-content: center;
     line-height: 1.5;
-    min-height: 100vh;
+    min-height: 50vh;
     flex-direction: column;
     margin: 0;
 }
@@ -14,6 +14,54 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
     transition: transform 0.2s;
-    width: 500px;
+    width: 70%;
     text-align: center;
+}
+
+header {
+    color: var(--grey-9);
+    padding: 20px;
+    background-image: url('back.jfif');
+    background-size: cover;
+    font-weight: bold;
+
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+    z-index: 3;
+}
+
+.img-header{
+    width: 50px;
+    margin-right: 1500px;
+}
+
+.headerClass {
+    width: 100%;
+    max-width: 95%;
+    
+    padding: 8px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-link{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+
+
+.headerClass a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.headerClass a:hover {
+    text-decoration: underline; 
+    color: #fff; 
 }
