@@ -1,7 +1,8 @@
 header {
     color: var(--grey-9);
-    padding: 10px;
-    background-color: var(--sixth-color);
+    padding: 20px;
+    background-image: url('back.jfif');
+    background-size: cover;
     font-weight: bold;
 
     width: 100vw;
@@ -13,7 +14,20 @@ header {
     z-index: 3;
 }
 
-a img{
+.img-header{
+    width: 50px;
+    margin-right: 1500px;
+}
+
+
+p{
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+
+.img-icons{
     width: 200px;
 }
 
@@ -27,9 +41,10 @@ a img{
     justify-content: flex-end;
     align-items: center;
 }
-.headerClass > ul {
+.header-link{
     display: flex;
     gap: 50px;
+    margin: 20px;
 }
 
 .CardsClass{
@@ -41,10 +56,11 @@ a img{
     width: 100%;
     position: fixed;
     gap: 10px;
+    background-color: var(--grey-2);
 }
 
 .MyCard{
-    border: 3px solid var(--sixth-color) ;
+    border: 3px solid #65afb2 ;
     border-radius: 40px;
 
 }
@@ -54,3 +70,12 @@ a img{
     flex-direction: column;
 }
 
+.headerClass a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.headerClass a:hover {
+    text-decoration: underline; 
+    color: #fff; 
+}

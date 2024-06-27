@@ -19,16 +19,13 @@
     --sixth-color: #639fab;
     --seven-color: #8fb6c8;
     --eigth--color: #bbcde5;
-    
 }
 
-
-body{
-    background-color: var(--second__color);
+body {
+    background-color: var(--grey-3);
     font-family: "Josefin Sans", sans-serif;
-    
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }

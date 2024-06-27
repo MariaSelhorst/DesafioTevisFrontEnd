@@ -1,13 +1,15 @@
 /* Login css */
 
-body {
+.loginBody {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
     line-height: 1.5;
     min-height: 100vh;
-    background: #ECEBEB;
+    background-image: url('./back.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-direction: column;
     margin: 0;
 }
@@ -50,9 +52,10 @@ button {
     border: none;
     color: white;
     cursor: pointer;
-    background-color: #1c5d99;
+    background-color: #0d1856;
     width: 30%;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -73,4 +76,11 @@ button {
 .close {
     position: absolute;
     right: 25px;
+}
+
+.Titulo_login{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0d1856;
 }
