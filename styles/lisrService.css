@@ -1,0 +1,15 @@
+header {
+    color: var(--grey-9);
+    padding: 20px;
+    background-image: url('back.jfif');
+    background-size: cover;
+    font-weight: bold;
+
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+    z-index: 3;
+}
