@@ -73,3 +73,26 @@ button {
     width: 30%;
     font-size: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .service-form {
+        width: 90%;
+        max-width: 400px; 
+
+    button {
+        width: 70%; 
+        max-width: 250px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .service-form {
+        padding: 15px; 
+
+    button {
+        width: 100%; 
+        max-width: none; 
+    }
+}
+}
+}
