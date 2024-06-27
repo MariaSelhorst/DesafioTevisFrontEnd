@@ -74,3 +74,25 @@ button {
     position: absolute;
     right: 25px;
 }
+
+.message {
+    display: none;
+}
+
+.message p {
+    text-align: left;
+    line-height: 1.2;
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.mismatch {
+    display: none;
+}
+
+.mismatch p {
+    text-align: left;
+    line-height: 1.2;
+    font-size: 12px;
+    margin: 2px 0;
+}

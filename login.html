@@ -30,14 +30,26 @@
 
         <form class="modal-form" action="">
             <label>New Password: </label>
-            <input type="password" id="newPassword" name="newPassword" required placeholder="Enter a New Password">
+            <input type="password" id="newPassword" name="newPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="Enter a New Password">
 
             <label>Confirm Password: </label>
             <input type="password" id="newPasswordConfirm" name="newPasswordConfirm" required placeholder="Confirm the New Password">
 
-            <button type="submit" onclick="">Confirm</button>
+            <div id="mismatch" class="mismatch">
+                <p><b>Passwords do not match!</b></p>
+            </div>
+
+            <div id="message" class="message">
+                <p><b>Password must contain the following: </b></p>
+                <p id="letter">A lowercase letter</p>
+                <p id="capital">A capital (uppercase) letter</p>
+                <p id="number">A number</p>
+                <p id="length">Minimum 8 characters</p>
+            </div>
+
+            <button type="submit" onclick="checkPasswordValidity(event)">Confirm</button>
         </form>
     </div>
-    
+
 </body>
 </html>
