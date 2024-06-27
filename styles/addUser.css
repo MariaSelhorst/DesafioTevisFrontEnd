@@ -6,7 +6,9 @@ body {
     justify-content: center;
     line-height: 1.5;
     min-height: 100vh;
-    background: #ECEBEB;
+    background-image: url('./back.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-direction: column;
     margin: 0;
 }
@@ -66,7 +68,8 @@ button {
     border: none;
     color: white;
     cursor: pointer;
-    background-color: #407ea2;
+    background-color: #0d1856;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 30%;
     font-size: 16px;
 }
