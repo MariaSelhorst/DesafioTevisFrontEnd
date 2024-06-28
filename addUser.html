@@ -14,33 +14,42 @@
 </head>
 <body>
     <header>
+        <nav class="headerClass">
+            <img class="img-header" src="./assets/configuracoes.png" alt="">
+            <a class="header-link" href="index.html">Home</a>
+            <a class="header-link" href="addService.html">Service Register</a>
+            <a class="header-link" href="addUser.html">User Register</a>
+        </nav>
     </header>
-
-    <div class="user-form">
-        <form>
-            <label for="login">Login:</label>
-            <input type="text" id="login" name="login" required>
-            
-            <label for="department">Department:</label>
-            <select id="department" name="department" required>
-                <option value="" disabled selected hidden>Select the department</option>
-                <option value="HR">Human Resources</option>
-                <option value="TI">IT</option>
-                <option value="FC">Finances</option>
-                <!-- Adicione outras opções conforme necessário -->
-            </select>
-            
-            <label for="role">Role:</label>
-            <select id="role" name="role" required>
-                <option value="" disabled selected hidden>Select the role</option>
-                <option value="Administrator">Administrator</option>
-                <option value="Manager">Manager</option>
-                <option value="Colaborator">Colaborator</option>
-            </select>
-            
-            <button type="submit">Register</button>
-        </form>
+    
+    <div class="body-user">
+        <div class="user-form">
+            <form>
+                <label for="login">Login:</label>
+                <input type="text" id="login" name="login" required>
+                
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="" disabled selected hidden>Select the department</option>
+                    <option value="HR">Human Resources</option>
+                    <option value="TI">IT</option>
+                    <option value="FC">Finances</option>
+                    <!-- Adicione outras opções conforme necessário -->
+                </select>
+                
+                <label for="role">Role:</label>
+                <select id="role" name="role" required>
+                    <option value="" disabled selected hidden>Select the role</option>
+                    <option value="Administrator">Administrator</option>
+                    <option value="Manager">Manager</option>
+                    <option value="Colaborator">Colaborator</option>
+                </select>
+                
+                <button type="submit">Register</button>
+            </form>
+        </div>
     </div>
+    
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-body {
+.body-service {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,6 +9,54 @@ body {
     background-repeat: no-repeat;
     flex-direction: column;
     margin: 0;
+}
+
+header {
+    color: var(--grey-9);
+    padding: 20px;
+    background-color: #65afb2;
+    background-size: cover;
+    font-weight: bold;
+
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+    z-index: 3;
+}
+
+.img-header{
+    width: 50px;
+    margin-right: 1500px;
+}
+
+.headerClass {
+    width: 100%;
+    max-width: 95%;
+    
+    padding: 8px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-link{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+
+
+.headerClass a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.headerClass a:hover {
+    text-decoration: underline; 
+    color: #fff; 
 }
 
 .service-form {
@@ -62,7 +110,7 @@ button {
     border: none;
     color: white;
     cursor: pointer;
-    background-color: #0d1856;
+    background-color: #65afb2;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 50%;
     max-width: 200px; 

@@ -11,24 +11,33 @@
 </head>
 <body>
     <header>
+        <nav class="headerClass">
+            <img class="img-header" src="./assets/configuracoes.png" alt="">
+            <a class="header-link" href="index.html">Home</a>
+            <a class="header-link" href="addService.html">Service Register</a>
+            <a class="header-link" href="addUser.html">User Register</a>
+        </nav>
     </header>
 
-    <div class="service-form">
-        <form>
-            <label for="serviceName">Service name:</label>
-            <input type="text" id="serviceName" name="serviceName" required>
-            
-            <label for="description">Description:</label>
-            <textarea id="description" name="description" rows="4" required></textarea>
-            
-            <div class="internal-checkbox">
-                <input type="checkbox" id="internal" name="internal">
-                <label>Internal Service</label>
-            </div>
-            
-            <button type="submit">Create</button>
-        </form>
+    <div class="body-service">
+        <div class="service-form">
+            <form>
+                <label for="serviceName">Service name:</label>
+                <input type="text" id="serviceName" name="serviceName" required>
+                
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                
+                <div class="internal-checkbox">
+                    <input type="checkbox" id="internal" name="internal">
+                    <label>Internal Service</label>
+                </div>
+                
+                <button type="submit">Create</button>
+            </form>
+        </div>
     </div>
+    
     
 </body>
 </html>

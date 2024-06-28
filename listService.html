@@ -28,14 +28,15 @@
     <header>
         <nav class="headerClass">
             <img class="img-header" src="./assets/configuracoes.png" alt="">
-            <a class="header-link" href="addService.html">Service</a>
+            <a class="header-link" href="index.html">Home</a>
+            <a class="header-link" href="addService.html">Service Register</a>
             <a class="header-link" href="addUser.html">User Register</a>
         </nav>
     </header>
 
     <div class="div-service-table">
-        <div>
-            <input type="text"> <!-- Barra de pesquisa -->
+        <div class="search-container">
+            <input placeholder="Search service..." type="text"> <!-- Barra de pesquisa -->
             <button>Search</button>
         </div>
 
@@ -88,9 +89,9 @@
 
 
     <div class="pagination" id="pagination">
-        <button id="btnPrevPage">Anterior</button>
-        <span id="pageInfo">Página <span id="currentPage">1</span> de <span id="totalPages">1</span></span>
-        <button id="btnNextPage">Próxima</button>
+        <button class="Page-btn" id="btnPrevPage">Previous</button>
+        <span id="pageInfo">Page <span id="currentPage">1</span> de <span id="totalPages">1</span></span>
+        <button class="Page-btn" id="btnNextPage">Next</button>
     </div>
 
     <div id="modalExcluir" class="modal">
